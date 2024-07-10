@@ -13,15 +13,23 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: black;
+    color: white;
     font-family: 'Nuntio Sans', sans-serif;
+    background-color: black;
 }
 
-h1, h2, h3{
+h1{
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: black;
+    color:black
+} 
+
+h2, h3{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgb(255, 0, 0);
 }
 
 .hdden-heading{
