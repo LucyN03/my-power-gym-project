@@ -85,3 +85,14 @@ nav{
     font-size: 2rem;
 }
 
+/*Main*/
+main{
+    /*push footer down*/
+    flex: 1 0 auto;
+    /*add margin to top to prevent content from being covered by the header*/
+    margin-top: 47px;
+    /*flex properties for child elements*/
+    display: flex;
+    flex-direction: column;
+}
+
