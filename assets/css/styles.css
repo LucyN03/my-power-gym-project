@@ -60,3 +60,28 @@ header a {
     border-bottom: 1px solid black;
 }
 
+/*navbar style with dropdown*/
+nav{
+    position: absolute;
+    background-color: #ffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #000000;
+    display: none;
+    top: 100%;
+}
+
+/*nav toggle*/
+#nav-toggle:checked~nav{
+    display: block;
+}
+
+#nav-toggle{
+    display: none;
+}
+
+.nav-toggle-label{
+    font-size: 2rem;
+}
+
