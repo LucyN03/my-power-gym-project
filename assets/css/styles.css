@@ -27,3 +27,36 @@ h1, h2, h3{
 .hdden-heading{
     display: none;
 }
+
+/*Header*/
+header{
+    background-color: rgb(255, 0, 0);
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu{
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#menu>li{
+    margin-bottom: 1em;
+}
+
+.active{
+    border-bottom: 1px solid black;
+}
+
