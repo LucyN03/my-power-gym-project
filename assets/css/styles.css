@@ -104,6 +104,38 @@ main{
     flex-direction: column;
 }
 
+.content{
+    width: 95%;
+    margin: 20px auto;
+}
+
+/*reasons*/
+#reasons{
+    width: 90%;
+    margin: 20px auto;
+}
+
+#reasons h2{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
+
+#state-of-the-art>div
+#personalized>div{
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits p{
+    padding: 0 20px;
+}
+
+#benefits hr{
+    border-top: 1 px solid white;
+    margin: 5px 0;
+}
+
 /*Hero*/
 #hero{
     height: 600px;
