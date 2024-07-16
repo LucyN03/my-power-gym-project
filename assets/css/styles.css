@@ -232,7 +232,23 @@ main{
         right: 50px;
     }
 
-    /**/
+    /*reasons*/
+    #state-of-the-art,
+    #personalized{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #state-of-the-art>div,
+    #personalized{
+        width: 75%;
+    }
+
+    #personalized>div{
+        text-align: end;
+        align-self: flex-end;
+    }
 }
 
 @media screen and (min-width: 992px){
