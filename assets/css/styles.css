@@ -160,6 +160,35 @@ main{
     color: white;
 }
 
+/*classes*/
+.class{
+    display: block;
+    unicode-bidi: isolate;
+    margin: 0;
+}
+
+.class-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 1px;
+}
+
+.class-item{
+    flex: 1 1 30%;
+    background: #525252;
+    padding: 1rem;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.class-item img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
 /*Footer*/
 #social-networks{
     text-align: center;
@@ -227,10 +256,21 @@ main{
     #state-of-the-art>div{
         width: 75%;
     }
+
+    /*classes*/
+    .class-item{
+        flex: 1 1 48%;
+    }
 }
 
 @media screen and (min-width: 992px){
     #menu a:hover{
         border-bottom: 1 solid black;
+    }
+}
+
+@media screen and (min-width: 480px){
+    .class-item{
+        flex: 1 1 100%;
     }
 }
