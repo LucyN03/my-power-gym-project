@@ -160,21 +160,21 @@ main{
     color: white;
 }
 
-/*classes*/
-.class{
+/*classes, trainers*/
+.class, .trainers{
     display: block;
     unicode-bidi: isolate;
     margin: 0;
 }
 
-.class-list{
+.class-list, .trainer-list{
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
     margin: 20px 76px;
 }
 
-.class-item{
+.class-item, .trainer-item{
     flex: 1 1 30%;
     background: #525252;
     padding: 1rem;
@@ -183,9 +183,9 @@ main{
     text-align: center;
 }
 
-.class-item img{
+.class-item img, .trainer-item img{
     width: 100%;
-    height: auto;
+    height: 75%;
     border-radius: 5px;
 }
 
@@ -303,8 +303,8 @@ main{
         width: 75%;
     }
 
-    /*classes*/
-    .class-item{
+    /*classes, trainers*/
+    .class-item, .trainer-item{
         flex: 1 1 48%;
     }
 
@@ -338,7 +338,7 @@ main{
 }
 
 @media screen and (min-width: 480px){
-    .class-item{
+    .class-item, .trainer-item{
         flex: 1 1 100%;
     }
 }
