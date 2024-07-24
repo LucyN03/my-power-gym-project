@@ -24,3 +24,11 @@ The website is hosted n GitHub Pages. [View he website](https://lucyn03.github.i
 
 ![Sign-Up Page](/assets/images/signup-page.JPG)
 *Sign-Up Page - Sign-up form to join our gym.*
+
+## Devlopment Process
+- **Version Control:** All code is managed using Git and GitHub. Commits are made often, with clear messages describing the purpose of each commit.
+- **Validation:** The HTML and CSS code passes through the offical W3C validator with some minor issues. 
+
+## Acknowledgements
+- **Images:** Sourced from google images I searched for non-copyrighted images.
+- **References:** I used W3schools for my source of code and love-running for help with some of code.
