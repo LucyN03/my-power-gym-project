@@ -161,11 +161,10 @@ main{
 }
 
 /*classes, trainers*/
-.class, .trainers{
+/* .class, .trainers{
     display: block;
-    unicode-bidi: isolate;
     margin: 0;
-}
+} */
 
 .class-list, .trainer-list{
     display: flex;
@@ -185,7 +184,7 @@ main{
 
 .class-item img, .trainer-item img{
     width: 100%;
-    height: 75%;
+    height: auto;
     border-radius: 5px;
 }
 
@@ -252,6 +251,13 @@ main{
 }
 
 /*Media query: tablets and larger (768px and up)*/
+
+@media screen and (max-width: 1024px){
+    .class-item, .trainer-item{
+        flex: 1 1 45%;
+    }
+}
+
 @media screen and (min-width: 768px){
     /*Header*/
     nav{
@@ -305,7 +311,7 @@ main{
 
     /*classes, trainers*/
     .class-item, .trainer-item{
-        flex: 1 1 48%;
+        flex: 1 1 100%;
     }
 
     /*signup*/
