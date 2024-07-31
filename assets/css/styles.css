@@ -341,7 +341,7 @@ main{
     }
 }
 
-@media screen and (min-width: 480px){
+@media screen and (min-width: 320px){
     .class-item, .trainer-item{
         flex: 1 1 100%;
     }
