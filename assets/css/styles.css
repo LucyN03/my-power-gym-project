@@ -4,7 +4,6 @@
 /*override default styles added by the browser*/
 * {
     padding: 0;
-    /* margin: 0; */
     box-sizing: border-box;
 }
 
@@ -112,8 +111,9 @@ main{
 
 /*reasons*/
 #reasons{
-    width: 90%;
+    width: 50%;
     margin: 20px auto;
+    text-align: center;
 }
 
 #reasons h2{
@@ -132,7 +132,7 @@ main{
 }
 
 #benefits hr{
-    border-top: 1 px solid white;
+    border-top: 1px solid white;
     margin: 5px 0;
 }
 
@@ -159,12 +159,6 @@ main{
 #cover-text>h3 {
     color: white;
 }
-
-/*classes, trainers*/
-/* .class, .trainers{
-    display: block;
-    margin: 0;
-} */
 
 .class-list, .trainer-list{
     display: flex;
@@ -252,9 +246,13 @@ main{
 
 /*Media query: tablets and larger (768px and up)*/
 
-@media screen and (max-width: 1024px){
+@media screen and (min-width: 1024px){
     .class-item, .trainer-item{
         flex: 1 1 45%;
+    }
+
+    .class-item img, .trainer-item img{
+        width: 50%;
     }
 }
 
@@ -339,7 +337,7 @@ main{
 
 @media screen and (min-width: 992px){
     #menu a:hover{
-        border-bottom: 1 solid black;
+        border-bottom: 1px solid black;
     }
 }
 
