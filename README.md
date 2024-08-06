@@ -54,8 +54,6 @@ This is the main marketing website for Power Gym. It is designed to be responsiv
 - **Google Fonts**: Used to import 'Nunito Sans' and 'Oswald' fonts.
 - **Font Awesome**: Icons used across the website for social media and other UI elements.
 - **Git**: For version control, using GitHub for repository hosting.
-- **Photoshop**: Used for image editing and logo creation.
-- **Balsamiq**: For wireframe creation during the design process.
 
 ## Testing
 
@@ -76,7 +74,7 @@ This is the main marketing website for Power Gym. It is designed to be responsiv
 - **Finding New Classes or Events:**
   - The homepage features banners or sections highlighting new classes or events.
 - **Getting in Contact:**
-  - The "Contact Us" page is easily accessible from the navigation menu, providing a form and links to social media.
+  - The "Sign Up" page is easily accessible from the navigation menu, providing a form and links to social media.
 - **Community Links and Updates:**
   - Links to community pages or updates are featured in both the footer and the blog section.
 
